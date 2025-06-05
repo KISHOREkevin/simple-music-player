@@ -1,0 +1,12 @@
+altgraph==0.17.4
+packaging==25.0
+pycairo==1.28.0
+PyGObject==3.52.3
+PyGObject-stubs==2.13.0
+pyinstaller==6.14.0
+pyinstaller-hooks-contrib==2025.4
+PyQt5==5.15.11
+PyQt5-Qt5==5.15.17
+PyQt5_sip==12.17.0
+setuptools==80.9.0
+toml==0.10.2
