@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Simple Music Player
-Comment=My awesome Python-based music player
-Exec=/home/kishore/.local/bin/music
-Terminal=false
-Type=Application
-Categories=AudioVideo;Player;
-StartupNotify=true
-Keywords=music;player;audio;mp3;my-app;
