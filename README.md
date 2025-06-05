@@ -180,4 +180,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**[Replace KISHOREkevin and simple-music-player with your actual GitHub details.]**
+---
+
+## 🎉 Acknowledgements
+
+We extend our sincere gratitude to the following projects and communities whose incredible work made My Awesome Music Player possible:
+
+* **PyQt Project:** For providing the robust and versatile Python bindings for the Qt application framework, enabling the creation of powerful graphical user interfaces.
+* **PyInstaller:** For its invaluable role in effortlessly packaging this Python application into a standalone executable, simplifying distribution to end-users.
+* **Qt Project:** The foundational C++ framework that empowers the entire application, offering comprehensive multimedia capabilities and cross-platform compatibility.
+* **GStreamer:** The powerful multimedia framework on Linux that QtMultimedia leverages, providing the necessary codecs and backend infrastructure for audio playback.
+
+
+---
+
+# Author
+Kishore Kevin   
+[Portfolio](https://kishorekevin.netlify.app/) | [github](https://github.com/KISHOREkevin/) | [LinkedIn](https://www.linkedin.com/in/kishore-kevin-a5a873290) | 
+[Youtube Channel](https://youtube.com/@codex_arch)
+
+Your open-source contributions are truly appreciated!
+
+---
+
