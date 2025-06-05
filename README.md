@@ -23,7 +23,7 @@ You have a few options to get and run My Music Player on your Linux system:
 This is the easiest way to get the player running without installing any development tools.
 
 1.  **Download the Executable:**
-    Go to the [**Releases page**](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/releases) of this repository.
+    Go to the [**Releases page**](https://github.com/KISHOREkevin/simple-music-player/releases) of this repository.
     Download the latest `music-player` executable file from the "Assets" section of the desired release.
 
 2.  **Make it Executable:**
@@ -45,7 +45,7 @@ This is the easiest way to get the player running without installing any develop
 This script automates copying the executable and creating a desktop entry, making it appear in your application menu.
 
 1.  **Download Release Assets:**
-    Go to the [**Releases page**](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/releases) and download:
+    Go to the [**Releases page**](https://github.com/KISHOREkevin/simple-music-player/releases) and download:
     * The `music-player` executable
     * The `simple-music-player.desktop` file
     * The `install.sh` script
@@ -80,7 +80,7 @@ If you want to contribute, customize, or understand the internals, you can build
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/KISHOREkevin/simple-music-player.git](https://github.com/KISHOREkevin/simple-music-player.git)
+    git clone https://github.com/KISHOREkevin/simple-music-player.git
     cd simple-music-player
     ```
 
