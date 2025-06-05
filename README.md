@@ -180,8 +180,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
----
-
 ## 🎉 Acknowledgements
 
 We extend our sincere gratitude to the following projects and communities whose incredible work made My Awesome Music Player possible:
