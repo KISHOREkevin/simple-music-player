@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub Releases](https://img.shields.io/github/downloads/KISHOREkevin/simple-music-player/total)](https://github.com/KISHOREkevin/simple-music-player/releases)
-
+![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python&logoColor=white)
 ![Simple music player](music.png) 
 
 A simple yet powerful music player built with PyQt5 and QtMultimedia, designed for Linux desktops. Enjoy your favorite tunes with a clean and intuitive interface.
