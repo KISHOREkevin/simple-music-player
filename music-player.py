@@ -114,7 +114,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-        
+        self.playSingleSong()
 
 
     def retranslateUi(self, MainWindow):
@@ -210,7 +210,32 @@ class Ui_MainWindow(object):
                     self.mediaplaylist.addMedia(QMediaContent(QtCore.QUrl.fromLocalFile(file_path)))
         self.mediaplaylist.setCurrentIndex(0)
         self.songInfo.setText("Song Loaded Lets play")
-        
+       
+
+    def playSingleSong(self):
+        if len(sys.argv) > 1 :
+            if os.path.exists(sys.argv[1]):
+                if sys.argv[1].find(os.path.expanduser("~")) == 0 :
+                    file=sys.argv[1]
+                else :
+                    file = os.path.abspath(sys.argv[1])
+                self.mediaplaylist.clear()
+                self.playList.clear()
+                self.playList.append(file)
+                self.mediaplaylist.addMedia(QMediaContent(QtCore.QUrl.fromLocalFile(file)))
+                self.mediaplaylist.setCurrentIndex(0)
+                self.setSongInfo()
+                self.playBtn.setText("   ⏸   ")
+                self.musicslist.addItem("♫     "+ os.path.basename(file))
+                self.mediaplayer.play() 
+            else:
+                print("File not exists")
+                sys.exit()
+            
+            
+                        
+
+    
 if __name__ == "__main__":
     app=QtWidgets.QApplication(sys.argv)
     mainWindow=QtWidgets.QMainWindow()
