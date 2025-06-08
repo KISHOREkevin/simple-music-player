@@ -161,6 +161,21 @@ If you downloaded the binary directly and prefer not to use the `install.sh` scr
     update-desktop-database ~/.local/share/applications/
     ```
 
+## Usage 
+* Also play music directly by giving file as an argument to the command `music-player`.
+* Like `music-player [path-to-music-file]`
+* for example:
+    - if its `./music-player` binary file,
+        ```bash
+            ./music-player music.mp3
+        ```
+    - if its an command,
+        ```bash
+            music-player music.mp3
+        ```
+ 
+
+
 ## ⚠️ Troubleshooting
 
 * **`GStreamer-WARNING: External plugin loader failed...`**:
